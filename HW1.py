@@ -2,7 +2,7 @@ import feedparser
 import pprint
 
 # Parse the RSS feed for tomorrow's fuel prices
-feed1 = feedparser.parse('http://www.fuelwatch.wa.gov.au/fuelwatch/fuelWatchRSS?Product=1&Suburb=Cloverdale&Day=tomorrow')
+feed1 = feedparser.parse('http://www.fuelwatch.wa.gov.au/fuelwatch/fuelWatchRSS?Product=1&Suburb=Cloverdale&Day=today')
 
 data = feed1.entries
 
